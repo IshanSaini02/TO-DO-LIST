@@ -41,6 +41,8 @@ body {
     font-size: 3rem;
     min-height: 25vh;
     width: 100%;
+    /* border: 2px solid red; */
+    /* margin-top: 40px; */
 }
 
 /* Theme buttons div */
@@ -322,9 +324,10 @@ form button {
     }
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 900px) {
     #header {
         font-size: 2rem;
+        margin-top: 30px;
     }
 
     #title {
@@ -337,9 +340,10 @@ form button {
     }
 }
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 900px) {
     #header {
         font-size: 1.5rem;
+        margin-top: 30px;
     }
 
     #title {
@@ -348,12 +352,18 @@ form button {
             animated-cursor 750ms steps(16,end) infinite;
         max-width: 255px;
     }
+    #title{
+        height: 65px;
+    }
 }
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 600px) {
     form {
         align-items: center;
         flex-direction: column;
+    }
+    #title{
+        height: 65px;
     }
 
     form input {
